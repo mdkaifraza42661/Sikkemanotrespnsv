@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sikkem-mainContainer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background-color: white; */
+
+}
+
+.sikkem-blackContainer{
+    width: 100%;
+    height: 6.2vh;
+    background-color: black;
+}
+.sikkem-blackContainerChild{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.main-containerNav{
+    width: 100%;
+    background-color: #ffff;
+
+
+}
+.sikkemaNav{
+    width: 93%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.sikkemanavlinks{
+    width: 50%;
+}
+.sikkemanavlinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sikkemanavlinks ul li{
+    list-style: none;
+    padding-left: 2%;
+    text-transform: lowercase;
+}
+.sikkemanavlinks ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: 300;
+   font-style: italic;
+}
+.sikkemaNav .sikkemaNavImg{
+    width: 10%;
+  
+}
+.sikkemaNav .sikkemaNavImg img{
+    width: 100%;
+}
+.main-containersikkemBanner{
+    position: relative;
+    z-index: -1;
+    height: 70vh;
+    background-color: white
+}
+.sikkemabanner{
+    background-image: url(https://sikkema.be/wp-content/uploads/2021/02/sikkema-elke-van-den-ende-335.jpg);
+    width: 93%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top: -15em;
+    left: 3em;
+    
+}
+.bannerText{
+    content: '';
+    position: relative;
+    width: 25%;
+    top: 18em;
+    left: 15em;
+    z-index: 99999999!important;
+}
+.bannerSikkemheading{
+    width: 89%;
+    color: black;
+    font-weight: lighter;
+    line-height: 1.3rem;
+    /* padding: 0 25% 0 0; */
+    font-size: 0.99rem;
+}
+.bannerSikkemheading-para{
+    width: 86%;
+    color: rgb(0 0 0 / 38%);
+    font-weight: 300;
+    padding-top: 2%;
+    letter-spacing: 0.1rem;
+    font-size: 0.99rem;
+}
+.Sikkembannerbtn{
+    color: rgba(0, 0, 0, 0.505);
+    margin:  10px 0; 
+    padding: 5px 12px;
+    background: transparent;
+    font-weight: 300;
+    border: 1px solid black;
+    cursor: pointer;
+   
+} 
+.main-bezork{
+    width: 100%;
+    background-color: white;
+}
+.bezork{
+    padding: 6% 0;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bezorkheading{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.bezorkpara{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+.bezorkbtn{
+    padding: 1.2% 3%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.532);
+    background-color: transparent;
+}
+.bezorkbtn:hover{
+    padding: 1.2% 3%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ffff;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: black;
+    transition: 0.3s;
+}
+.main-bruidskleding{
+    
+    width: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: white;
+}
+.Moderne-bruidskleding{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EDEDED;
+}
+
+.Moderne-bruidskledingText{
+    width:50%;
+    padding: 0% 5% 8% 5%;
+}
+.Moderne-bruidskledingImg{
+    width: 50%;
+    position: absolute;
+    top: 22vh;
+    right: 0;
+}
+.Moderne-bruidskleding{
+   
+    width: 90%;
+    margin: auto;
+}
+.horizontal-row{
+    width: 9%;
+    height: 0.123rem;
+    border-color: #ebebeb;
+    margin: 12% 0% 3% 0%;  
+    background-color: #ebebeb;
+}
+.Moderne-bruidskledingText p{
+    padding: 2% 0% 3% 0%;
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    color: rgba(128, 128, 128, 0.694);
+}
+.Moderne-bruidskledingText h2{
+    padding-top: 2%;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color:rgba(0, 0, 0, 0.749);
+}
+
+.Moderne-bruidskledingTextLink{
+    text-decoration: none;
+    color: black;
+}
+.Moderne-bruidskledingTextLink:hover{
+    text-decoration:underline;
+    
+
+}
+.spanPlus{
+    margin-left: 2%;
+}
+.main-MetContainer{
+    width: 100%;
+    padding: 20% 0% 5% 0%;
+    background-color: white;
+}
+.child-MetContainer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.childimg-MetContainer{
+    width:40%
+}
+.Moderne-bruidskleding1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#4D4D4D;
+   
+}
+.grandparenmain-zeggen{
+    width: 100%;
+    background-color: white;
+    padding-top: 30%;
+}
+.grandmain-footer-banner{
+    width: 100%;
+    background-color: white;
+    padding-top: 7%;
+}
+.main-zeggen{
+    width: 90%;
+    margin: auto;
+    background-color: #EDEDED;
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.child-zeggen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top:40vh;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.Alexis, .Line,.Stephonie{
+    width: 40%;
+    margin: 2% 2% 2% 2%;
+    background-color: #fbfbfb;
+    font-size: 1rem;
+}
+.Alexis p, .Line p, .Stephonie p{
+    padding: 10% 2%;
+    text-align: center;
+}
+.main-zeggenHr{
+    width: 20%;
+    margin: auto;
+}
+.zeggenHeading h1{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    text-align: center;
+    color: rgb(137, 130, 130);
+    font-size: 2rem;
+    font-weight: 300;
+}
+.main-footer-banner{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+}
+.imges{
+    width: 100%;
+    height: 100%;
+    margin-top: 20vh;
+    background-position-y: -50vh;
+    background-image: url('https://sikkema.be/wp-content/uploads/2020/11/sikkema-248.jpg');
+    background-repeat: no-repeat;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+    font-size: 2rem;
+    font-weight: 300;
+    background-color: white;
+}
+.instagramIcon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+.sikkemiconsocial{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #4d4d4da8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.fa-brands:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.instagramIcon-sikkema{
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+.footer-gallery{
+    background-color: white;
+    width: 100%;
+    /* height: 8vh; */
+}
+.footerSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.firImg , .secImg , .thrImg , .fouImg , .fivImg ,.sixImg{
+    width: 16%;
+
+
+}
+.firImg img , .secImg img , .thrImg img , .fouImg  img, .fivImg img ,.sixImg img{
+    width: 100%;
+    cursor: pointer;
+}
+.buttunsocial-media{
+    text-align: center;
+    padding-bottom: 2%;
+    background-color: white;
+}
+.btn-learn{
+    padding: 0.5% 2% 0.5% 2%;
+    border: none;
+    background-color: #666666;
+    border-radius: 5px;
+}
+.btn-learn a{
+    text-decoration: none;
+    color: white; 
+}
+.btnfollow{
+    padding: 0.6% 2% 0.6% 2%;
+    background-color: #359DFF;
+    border: none;
+    border-radius: 5px;
+}
+.btnfollow a{
+    text-decoration: none;
+    color: white; 
+    
+}
+.footer-form{
+    width: 100%;
+    /* height: 10vh; */
+    background-color: #4D4D4D;
+}
+.child-footer-form{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.firstFrmfootersec{
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.secndfrmfootersec{
+    width: 50%;
+    padding: 5% 2%;
+}
+.firstFrmfootersec h2{
+    padding: 8% 2% 2% 2%;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #666666;
+}
+.firstFrmfootersec  p{
+    padding: 2% 2% 2% 2%;
+    font-weight: 400;
+    font-size:1rem;
+    line-height: 1.2rem;
+    color: #666666;
+}
+input[type=text] ,input[type=email]{
+    width: 48%;
+    height: 25%;
+    background-color: transparent;
+    border: 1px solid #666666;
+    padding-left: 2%;
+    
+}
+textarea{
+    width: 96.5%;
+    margin-top: 2%;
+    background-color: transparent;
+    border: 1px solid #666666;
+    outline: none;
+    padding-left: 2%;
+    padding-top: 2%;
+    resize: none;
+}
+.btnGetintouch{
+    margin-top: 3%;
+}
+input:focus-visible {
+    outline: none;
+}
+.btnGetintouch{
+    padding: 2% 4%;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.644);
+    color: #666666;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btnGetintouch:hover{
+   background-color: black;
+   color: #ebebeb;
+}
+.sikkemstickyfootercontainer{
+    width: 100%;
+    padding: 20% 0%;
+    /* height: 100vh; */
+    position: sticky;
+    bottom: 0%;
+    z-index: -99;
+    background-color: white;
+}
+.childstickycontainer{
+    width: 85%;
+    margin: auto;
+}
+.footersikkemaheading{
+    width: 62%;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+.stckeyFooterflexsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.footertouchsection ,.footercontactsection ,.footeraddersection ,.footervoosection{
+    width: 20%;
+}
+.footertouchsection .heading-footer , .footercontactsection .heading-footer ,.footeraddersection .heading-footer , .footervoosection .heading-footer{
+    padding-bottom: 5%;
+    font-size: 2rem;
+    color: #666666;
+}
+.footertouchsection  .sociale , .footercontactsection .sociale , .footeraddersection .sociale , .footervoosection .sociale{
+    font-size: 1.1rem;
+    color: #666666;
+    font-weight: 100;
+    padding-top: 2%;
+}
+.footercontactsection a ,.footervoosection a{
+    text-decoration: none;
+    color: #666666;
+    
+}
+.gent{
+    font-size: 1.1rem;
+    color: #666666;
+    font-weight: 100;
+    padding-top: 2%;
+}
+.shipp{
+    padding-top: 5%;
+}
